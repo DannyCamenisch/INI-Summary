@@ -192,4 +192,3 @@ Why does this only happen in axons?  - These channels are only present in suffic
 ### The big picture
 
 ![[Bildschirmfoto 2022-01-04 um 17.23.35.png]]
-

@@ -5,3 +5,4 @@ We covered the following topics:
 [[Nervous System]]
 [[Brain]]
 [[Neurons]]
+[[Synapses]]

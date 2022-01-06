@@ -6,7 +6,7 @@ The main function of the [[Brain]] is to receive stimuli from the environment, e
 ## How is information processed in the brain?
 Information processing can be viewed at on many levels, from the highest to the lowest level:
 
-behaviour -> system and pathways -> circuits -> [[Neurons]] -> microcircuits -> synapses -> membrane potential
+behaviour -> system and pathways -> circuits -> [[Neurons]] -> microcircuits -> [[Synapses]] -> membrane potential
 
 In a way we can compare a brain to a computer, but there are also some significant differences:
 
