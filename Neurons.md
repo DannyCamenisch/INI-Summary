@@ -180,7 +180,7 @@ Today we now that these channels are either open or closed, proven by the patch 
 ### Hodgkin and Huxley Model
 The following model accurately models these channels:
 
-![[hodfkin_huxley_model.png|400]]
+![[hodgkin_huxley_model.png|400]]
 
 ### Starting an action potential
 These experiments showed that the action potential works with a positive feedback loop. At the resting potential we have $I_L$ & $I_K$ > $I_{Na}$ therefore we have no action potential. But when we start an action potential we will have $I_L + I_K = I_{Na}$ resulting in this the generation of an action potential.
