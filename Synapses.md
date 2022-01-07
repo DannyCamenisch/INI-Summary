@@ -7,7 +7,7 @@ Contrary to electrical transmission multiple steps are required to release trans
 
 Synapses do not always connect to dendrites, they may also connect to other axons or the the soma of another cell.
 
-Synapses are not reliable, sometimes they may not transmit a signal or they might spontaneously transmit. 
+>Synapses are not reliable, sometimes they may not transmit a signal or they might spontaneously transmit. 
 
 ## Steps to chemical synaptic transmission
 - reaching of activation threshold of the presynaptic neuron
@@ -17,10 +17,12 @@ Synapses are not reliable, sometimes they may not transmit a signal or they migh
 - exocytosis and diffusion of neurotransmitter in the synaptic cleft
 - activation of postsynaptic receptors
 
+Notice that the calcium influx is sufficient for the release of neurotransmitter.
+
 ![[Bildschirmfoto 2022-01-06 um 18.25.56.png]]
 
 ## Neurotransmitter
-Neurotransmitter are small molecules or peptides released by the Ca2+ dependent depolarization at the presynaptic terminal. 
+Neurotransmitter are **small molecules or peptides** released by the Ca2+ dependent depolarization at the presynaptic terminal. 
 The mechanisms and sites of synthesis are different for the two types of neurotransmitters:
 - small molecule transmitters are synthesized at terminals, packaged into small clear-core vesicles
 - peptides, or neuropeptides are synthesized in the endoplasmic reticulum and transported to the synapse, sometimes they are processed along the way. Neuropeptides are packaged in large dense-core vesicles
@@ -45,3 +47,45 @@ The synaptic vesicle release consists of three principle steps:
 - Docking - Docked vesicles lie close to plasma membrane (within 30 nm)
 - Priming - Primed vesicles can be induced to fuse with the plasma membrane by sustained depolarization, high K+, elevated Ca++, hypertonic sucrose treatment
 - Fusion - Vesicles fuse with the plasma membrane to release transmitter. Physiologically this occurs near calcium channels.
+
+### Priming
+Vesicles in the reserve pool undergo priming to enter the readily-releasable pool. Priming corresponds to the assembly of the SNARE complex.
+
+![[Bildschirmfoto 2022-01-07 um 12.38.10.png|600]]
+
+## Postsynaptic Receptors
+When neurotransmitter cross the synaptic-cleft, they can bind to two types of receptors:
+- Ionotropic (LGIC)
+- Metabotropic  (GPCR)
+
+### Ionotropic
+Contains a transmitter binding site, after coupling the closed ion channels opens. Contributes to fast changes in the membrane potential.
+
+### Metabotropic
+Here a secondary messenger is involved. After the transmitter is coupled to the receptor a G-protein (messenger) is released. This G-protein is then responsible for signaling the ion channel to open. This process is much slower.
+
+#### NMDA Receptor
+NMDA receptors are one of the most important metabotropic receptors. They play a very important role in synaptic plasticity. NMDA receptors are excitatory, glutamate receptors.
+
+## Electrical synapses
+Until now we have discussed only chemical synapses, but there are also electrical synapses! 
+
+![[Bildschirmfoto 2022-01-07 um 12.57.02.png]]
+
+These synapses are bidirectional. Here the synapses are much closer to each other than in chemical synapses. An advantage of electrical synapses is, that they are much faster.
+
+| Electrical Synapse                    | Chemical Synapse                             |
+| ------------------------------------- | -------------------------------------------- |
+| simple primitive system               | highly developed structure                   |
+| often symmetrical / bidirectional     | polarized, structurally and functionally     |
+| gap junction                          | pre: active zone, post: postsynaptic density |
+| very fast, no synaptic delay          | slower, synaptic delay (~0.5ms)              |
+| Ca2+ independent                      | transmitter release requires Ca2+ influx     |
+| temperature-insensitive               | temperature-sensitive                        |
+| large synapses                        | thousands of small synapses                  |
+| limited functions, usually excitatory | versatile, excitatory and inhibitory         |
+| synchronized activity                 | point to point communication                 |
+
+## Plasticity
+>**Hebb's law:** Neurons that fire together wire together
+
