@@ -1,5 +1,5 @@
 # Neurons
-Cells that make up the [[Brain]]. These are very similar between different species. Certain types of neurons occur in specific parts of the brain, this is consistent between species. A neuron can be thought of as a processing unit that receives electrical input (dendrites) and generates electrical output (axon). Communication between neurons happen through synapses, in a directed way (pre -> post). This can cause a long effect called learning through spikes or acrion potential.
+Cells that make up the [[Brain]]. These are very similar between different species. Certain types of neurons occur in specific parts of the brain, this is consistent between species. A neuron can be thought of as a processing unit that receives electrical input (dendrites) and generates electrical output (axon). Communication between neurons happen through [[Synapses]], in a directed way (pre -> post). This can cause a long effect called learning through spikes or acrion potential.
 
 There are over 100 types of neurons. We looked at two ways of classifying them:
 - morphology: how the look
@@ -8,7 +8,7 @@ There are over 100 types of neurons. We looked at two ways of classifying them:
 ## Anatomy
 There might be a lot of different types of neurons, but the all consist of the same parts:
 
-![[Bildschirmfoto 2022-01-04 um 11.57.45.png]]
+![[neuron_overview.png]]
 
 - membrane - separating inside from outside
 - soma - cell body, contains nucleus and organelles
@@ -36,7 +36,7 @@ Excitatory -> ion channels open and let positively charged ions in
 ## Single neuron computations
 Neurons are complex structures, therefore it can get really complicated to simulate them. Therefore we can have different levels of abstraction. Clearly as we simplify our model, we loose some details that can have an effect on the larger system. (e.g. back propagation in dendrites)
 
-![[Bildschirmfoto 2022-01-03 um 18.52.18.png]]
+![[neuron_models.png]]
 
 ## Resting potentials
 There is an electrical potential between the inside and the outside of the cell, we call this the resting potential. Normally the inside is about $-70mV$, while the outside is $0mV$. This potential is used to transfer signals.
@@ -81,11 +81,11 @@ Where $z =$ ionic charge (signed).
 ### Reversal potential
 Assuming that we are not at the resting potential, what happens? $Flux_{net} \neq 0$ and the potential will move towards the resting potential, this happens for example if an active channel opens up. We can describe this with a graph and call this force the **reversal potential**:
 
-![[Bildschirmfoto 2022-01-03 um 19.40.39.png|500]]
+![[reversal_potential.png|500]]
 
 Each channel type will have a different reversal potential. Assuming we now have two different channel types (i.e. different ion types). We can draw the reversal potential of both channel types and end up with the following graph:
 
-![[Bildschirmfoto 2022-01-03 um 19.43.14.png|500]]
+![[multiple_reversal_potential.png|500]]
 
 The resting potential now is in between the reversal potential of the two channels.
 
@@ -99,7 +99,7 @@ The inside of the neuron is separated from the outside by the membrane. When an 
 
 ### Single-compartment model
 
-![[Bildschirmfoto 2022-01-04 um 12.14.09.png|700]]
+![[membran_capacity.png|700]]
 
 We end up with the following expression:
 $$R_m I_e - (V - E_m) = \tau_m \frac{dV}{dt}$$
@@ -108,7 +108,7 @@ We can now use this equation to derive a **steady-state solution** (steady input
 $$V_\infty = R_m I_e + E_m$$
 We can now make some interesting observations, that are nicely summaries by this slide:
 
-![[Bildschirmfoto 2022-01-04 um 12.22.37.png]]
+![[membrane_potential_observations.png]]
 
 #### General solution
 $$V(t) = V_\infty + (V(0) - V_\infty) \cdot e^\frac{-t}{\tau_m}$$
@@ -122,7 +122,7 @@ For a neuron to reach its activation threshold we need a certain amount of curre
 - **Spatial summation**: multiple, simultaneous inputs adding up
 - **Temporal summation**: multiple, time-delayed inputs adding up
 
-![[Bildschirmfoto 2022-01-04 um 12.35.02.png]]
+![[neuron_summation.png]]
 
 ### Cable equation
 Now we want to describe the same thing but we have to take into consideration the length / area of the dendrite. For this we use the cable equation:
@@ -140,7 +140,7 @@ The input at the dendrite can be very large, but the fraction that reaches the s
 In the previous sections we have seen how inputs reach the soma. When a series of input triggers a neuron to fire, we will see an action potential propagate along the axon to the synapses. This is what we want to look at now.
 Axons can be very long and therefore we need an effective way to transport this signal to the pre-synaptic terminals.
 
-![[Bildschirmfoto 2022-01-04 um 16.30.41.png|500]]
+![[action_potential.png|500]]
 
 This diagram shows an action potential. This last only 1-2ms and is an all-or-none signal. There are several phases:
 
@@ -156,11 +156,11 @@ The axon contains some special **voltage-dependent channels**, they change the c
 ### Voltage Clamp Experiment
 These channel where found by Hodgkin and Huxley in the voltage clamp experiment. This is a technique invented by Hodgkin and Huxley to measure the current $I$ at a set voltage $V$.
 
-![[Bildschirmfoto 2022-01-04 um 16.39.48.png]]
+![[voltage_clamp.png]]
 
 For the experiment to work, they needed to inject a voltage $V_{set}$, further they injected a current $I_L$ to compensate for the leak current and a current $L_C$ to depolarize the membrane at the start and repolarize it at the end. 
 
-![[Bildschirmfoto 2022-01-04 um 16.45.30.png|400]]
+![[voltage_clamp_data.png|400]]
 
 They found that when setting a higher initial $I_C$, the axon first wants to depolarize and then hyperpolarize, meaning that we need to inject a lot more current than $I_L$ to keep the voltage at $V_{set}$. 
 From this they hypothesised the existence of these channels and later confirmed it with similar experiments.
@@ -175,12 +175,12 @@ This explain what Hodgkin and Huxley observed in their voltage clamp experiment.
 
 Today we now that these channels are either open or closed, proven by the patch clamp experiment. As the action potential moves across the membrane, we see channels opening and closing.
 
-![[Bildschirmfoto 2022-01-04 um 16.59.08.png]]
+![[conductance.png]]
 
 ### Hodgkin and Huxley Model
 The following model accurately models these channels:
 
-![[Bildschirmfoto 2022-01-04 um 17.16.00.png|400]]
+![[hodfkin_huxley_model.png|400]]
 
 ### Starting an action potential
 These experiments showed that the action potential works with a positive feedback loop. At the resting potential we have $I_L$ & $I_K$ > $I_{Na}$ therefore we have no action potential. But when we start an action potential we will have $I_L + I_K = I_{Na}$ resulting in this the generation of an action potential.
@@ -191,4 +191,4 @@ Why does this only happen in axons?  - These channels are only present in suffic
 
 ### The big picture
 
-![[Bildschirmfoto 2022-01-04 um 17.23.35.png]]
+![[overview_action_potential.png]]

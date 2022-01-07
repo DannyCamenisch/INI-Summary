@@ -1,7 +1,7 @@
 # Synapses
-Synapses are the connection between neurons. They convert the electrical signal (action potential) coming from the axons into a **chemical signal** (neurotransmitter), that is transported to the next neuron, where it again is converted into an electrical signal (excitatory or inhibitory). 
+Synapses are the connection between [[Neurons]]. They convert the electrical signal (action potential) coming from the axons into a **chemical signal** (neurotransmitter), that is transported to the next neuron, where it again is converted into an electrical signal (excitatory or inhibitory). 
 
-![[Bildschirmfoto 2022-01-06 um 18.01.01.png]]
+![[overview_synapses.png]]
 
 Contrary to electrical transmission multiple steps are required to release transmitter chemicals and for them to act on postsynaptic receptors, resulting in a ***time delay*** (can be as short as 0.2ms, from Ca2+ entry to secretion). Synapses are ***highly modulatable*** as it involves many different steps at the presynaptic / postsynaptic terminal.
 
@@ -19,7 +19,7 @@ Synapses do not always connect to dendrites, they may also connect to other axon
 
 Notice that the calcium influx is sufficient for the release of neurotransmitter.
 
-![[Bildschirmfoto 2022-01-06 um 18.25.56.png]]
+![[chemical_synaptic_transmission.png]]
 
 ## Neurotransmitter
 Neurotransmitter are **small molecules or peptides** released by the Ca2+ dependent depolarization at the presynaptic terminal. 
@@ -41,7 +41,7 @@ Quantal release follows a binomial distribution.
 
 ## Synaptic release cycle
 
-![[Bildschirmfoto 2022-01-06 um 19.03.36.png]]
+![[synaptic_cycle.png]]
 
 The synaptic vesicle release consists of three principle steps:
 - Docking - Docked vesicles lie close to plasma membrane (within 30 nm)
@@ -51,7 +51,7 @@ The synaptic vesicle release consists of three principle steps:
 ### Priming
 Vesicles in the reserve pool undergo priming to enter the readily-releasable pool. Priming corresponds to the assembly of the SNARE complex.
 
-![[Bildschirmfoto 2022-01-07 um 12.38.10.png|600]]
+![[priming_synapses.png|600]]
 
 ## Postsynaptic Receptors
 When neurotransmitter cross the synaptic-cleft, they can bind to two types of receptors:
@@ -70,7 +70,7 @@ NMDA receptors are one of the most important metabotropic receptors. They play a
 ## Electrical synapses
 Until now we have discussed only chemical synapses, but there are also electrical synapses! 
 
-![[Bildschirmfoto 2022-01-07 um 12.57.02.png]]
+![[electrical_vs_chemical_synapses.png]]
 
 These synapses are bidirectional. Here the synapses are much closer to each other than in chemical synapses. An advantage of electrical synapses is, that they are much faster.
 

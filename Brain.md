@@ -1,5 +1,5 @@
 # Brain
-The brain is the main part of the CNS, it is protected by the skull and the meninges. When studying brains, scientists often use mouse brains (70 million neurons) instead of human brains.
+The brain is the main part of the CNS, it is protected by the skull and the meninges. When studying brains, scientists often use mouse brains (70 million [[Neurons]]) instead of human brains.
 
 ## Anatomy
 When comparing brain weight to body weight across different species, we can see a clear correlation.
@@ -24,7 +24,7 @@ The brain has four main cavities filled with Cerebral Spinal Fluid (CSF), we cal
 
 ### Major divisions of the brain
 
-![[Bildschirmfoto 2021-12-31 um 16.13.53.png]]
+![[brain_regions.png]]
 
 The telencephalon (or cerebrum) is the part we are most interested in. This is also one of the key features of human brains, that the telencephalon is really large.
 
@@ -49,7 +49,7 @@ The limbic system is part of the brain that is involved in the emotional express
 Entryway to the cortex, most signals are transmitted through the thalamus. It works as a relay station.
 
 ### Hypothalamus (diencephalon)
-Below the thalamus, connects the nervous system to the hormone system. Controls the pituitary gland, responsible for hunger, body temperature, etc.
+Below the thalamus, connects the [[Nervous System]] to the hormone system. Controls the pituitary gland, responsible for hunger, body temperature, etc.
 
 ### Cerebellum (metencaphalon)
 "Little brain", coordinates motor behaviour, posture adjustments and stores memories for simple learned motor responses.

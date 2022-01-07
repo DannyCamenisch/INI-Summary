@@ -1,8 +1,18 @@
 # Overview
-
 We covered the following topics:
-[[Introduction]]
-[[Nervous System]]
-[[Brain]]
-[[Neurons]]
-[[Synapses]]
+
+| Topic              | Lecture         |
+| ------------------ | --------------- |
+| [[Introduction]]   | (Lecture 1)     |
+| [[Nervous System]] | (Lecture 2)     |
+| [[Brain]]          | (Lecture 2)     |
+| [[Neurons]]        | (Lecture 3/4/5) |
+| [[Synapses]]       | (Lecture 6/7)   |
+
+
+
+
+ 
+ 
+ 
+ 
