@@ -11,7 +11,7 @@ We covered the following topics:
 | [[The Neural Code]]         | Lecture 8     |
 | [[Learning and Plasticity]] | Lecture 9     |
 | [[McCulloch-Pitts Neuron]]  | Lecture 10    |
-|                             | Lecture 11              |
+| [[Hopfield Network]]                            | Lecture 11              |
 |                             | Lecture 12              |
 |                             | Lecture 13              |
 |                             | Lecture 14              |

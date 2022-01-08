@@ -3,7 +3,7 @@ During the part about learning and plasticity, we already saw the perceptron. An
 
 ![[mcculloch_pitts_neuron.png]]
 
-Our basic model often works with a threshold of $\theta = 0$, meaning the neuron is on if the summation is $> 0$ and off is the summation is $\leq 0$ 
+Our basic model often works with a threshold of $\theta = 1$, meaning the neuron is on if the summation is $\geq 1$ and off is the summation is $< 1$ 
 
 A Perceptron can implement a ***linear decision boundary*** (imagine a line in 2D space), but it can not implement non linear decision boundaries (for example a circle). With such neurons, we can compute some basic functions like AND, OR, NOT. But we have already stated that there are unsolvable problems (example XOR).
 
