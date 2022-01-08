@@ -34,29 +34,11 @@ On the highest level, the brain uses the hippocampus to learn explicit knowledge
 ![[hippocampus_learning.png]]
 
 ### Perceptron Learning
-On a cellular level, we need to talk about perceptron learning. This is also important for training deep neural networks. This is also called the **McCulloch & Pitts Neuron**.
+On a cellular level, we need to talk about perceptron learning. This is also important for training deep neural networks. A neuron implementing perceptron learning is called a **Perceptron** or a **[[McCulloch-Pitts Neuron]]**.
 
 ![[mcculloch_pitts_neuron.png]]
 
 A Perceptron can implement a ***linear decision boundary*** (imagine a line in 2D space), but it can not implement non linear decision boundaries (for example a circle).
-
-```{r, eval=FALSE,tidy=FALSE}
-// Perceptron Learning Algorithm
-// -----------------------------
-
-P <- inputs with label 1
-N <- inputs with label 0
-
-Initialize w randomly
-
-while not convergence do:
-	Pick random x in (P u N)
-	
-	if x in P and w.x < 0:
-		w = w + x
-	if x in N and w.x >= 0:
-		w = w - x
-```
 
 ### Short-term Plasticity
 Paired activations of a synapses (with delay of 10 to 100ms) increases the probability of release.
