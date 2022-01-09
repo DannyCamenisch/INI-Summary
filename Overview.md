@@ -14,7 +14,7 @@ We covered the following topics:
 | [[Hopfield Network]]            | Lecture 11    |
 | [[Boltzmann Machine]]           | Lecture 12    |
 | [[Population Codes]]            | Lecture 13    |
-|                             | Lecture 14    |
+| [[Neuromorphic Engineering]]    | Lecture 14    |
 
 
 

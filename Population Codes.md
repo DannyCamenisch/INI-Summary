@@ -1,4 +1,4 @@
-# Population Codes
+ # Population Codes
 In [[The Neural Code]] we discussed the fact that neurons are tuned to a specific value of a stimulus. Meaning that their response is strongest if the stimulus matches their tuning. An example would be the angle of a line at a location on the retina.
 
 The **population code** is the response of all the neurons for a give value of a stimulus. Example all the responses of the neurons for a line with an angle of $60^o$. This approach allows us to easily decode the stimulus value as it is very robust to noise.
