@@ -28,5 +28,3 @@ The first term corresponds to Hebbian learning, while the second term is anti He
 There are some approaches to make the Boltzmann machine faster: 
 - Restricted Boltzmann machine - we split the units into input and internal in the form of a bipartite graph
 - Mean-field approximation - deterministic system with real-valued output (expected value of output)
-
-

@@ -13,7 +13,7 @@ We covered the following topics:
 | [[McCulloch-Pitts Neuron]]      | Lecture 10    |
 | [[Hopfield Network]]            | Lecture 11    |
 | [[Boltzmann Machine]]           | Lecture 12    |
-|                             | Lecture 13    |
+| [[Population Codes]]            | Lecture 13    |
 |                             | Lecture 14    |
 
 

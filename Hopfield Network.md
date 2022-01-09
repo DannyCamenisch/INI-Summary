@@ -1,7 +1,7 @@
 # Hopfield Network
 A **hopfield network** consists of multiple [[McCulloch-Pitts Neuron]] that are fully connected (all to all). This would be an example of a network with 4 units:
 
-![[Hopfield-net-vector.svg.png|300]]
+![[hopfield-net-vector.svg.png|300]]
 
 Hopfield networks serve as **content-addressable ("associative") memory**, therefore providing a model for understanding human memory and hebbian learning. Some basic rules for these type of networks:
 - connections are symmetric: $w_{i,j} = w_{j,i} \Rightarrow$ symmetric weight matrix
