@@ -17,10 +17,11 @@ The meninges is a protective layer between the skull and the brain. It consists 
 - dura mater - thick layer that gives physical protection
 - arachnoid mater - cushion like layer that is fluid resistant
 - pia mater - soft tissue that follows the brain structure and is also fluid resistant, so the cerebral spinal fluid can't leak out.
+
 They are known for protecting the brain against infections.
 
 ### Ventricular System
-The brain has four main cavities filled with Cerebral Spinal Fluid (CSF), we call the the ventricles. This CSF makes the brain float, so the brain does not touch the bones and thereby damages itself. Further it provides nutrition and an ionic environment for the brain. 
+The brain has four main cavities filled with Cerebral Spinal Fluid (CSF), we call them the ventricles. This CSF makes the brain float, so the brain does not touch the bones and thereby damages itself. Further it provides nutrition and an ionic environment for the brain. 
 
 ### Major divisions of the brain
 
@@ -32,7 +33,7 @@ We will especially look at part of the telencephalon and the diencephalon.
 
 ### Cerebral Cortex (telencephalon)
 There are four lobes in each hemisphere, they are separated by fissures in the cortex.
-The cerebral cortex is the outer layer of neural tissue of the telencephalon. It mostly consists of the six-layered neocortex. We can differentiate different areas of the cortex and associate them with different functions (there are 52 areas). We call connections from the deep layers to the superficial layers feedback connections and feedforward connections the other way around.
+The cerebral cortex is the outer layer of neural tissue of the telencephalon. It mostly consists of the six-layered **neocortex**. We can differentiate different areas of the cortex and associate them with different functions (there are 52 areas). We call connections from the deep layers to the superficial layers **feedback connections** and **feedforward connections** the other way around.
 
 ![[brain_cortex.png]]
 

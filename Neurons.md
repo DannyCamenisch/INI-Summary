@@ -14,7 +14,7 @@ There might be a lot of different types of neurons, but the all consist of the s
 - soma - cell body, contains nucleus and organelles
 - dendrites - connect to soma and provide inputs
 - axons - connect to soma and conducts away from it, often myelinated and end in synapses, carry output
-- synapse - pre / post synaptic terminals, transmit information between neurons (about 10'000 per neuron)
+- [[Synapses]] - pre / post synaptic terminals, transmit information between neurons (about 10'000 per neuron)
 
 ### Dendrites
 Dendrites can be seen as the input of the neuron. The electrical signal arrives at the dendrite. Can connect to many different synapses.

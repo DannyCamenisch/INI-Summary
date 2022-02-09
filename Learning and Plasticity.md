@@ -1,5 +1,5 @@
 # Learning and Plasticity
-Connection in the human brain are mostly learned, it would be almost impossible to encode all these connections in our DNA. This is important, since it has been shown that with learning one achieves better performance compared to having it encoded in our DNA. Leaning is the source where intelligent behaviour emerges.
+Connection in the human brain are mostly learned, it would be almost impossible to encode all these connections in our DNA. This is important, since it has been shown that with learning one achieves better performance compared to having it encoded in our DNA. Learning is the source where intelligent behaviour emerges.
 
 ## Defining learning / plasticity
 **Learning** it the acquisition / storage of knowledge or the formation of a memory through experience.

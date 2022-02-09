@@ -36,8 +36,8 @@ We want to find out how we can model a relation of the stimulus to the firing ra
 We have to consider that there are many factors like noise or recurrent / network effects, that make it almost impossible to find an accurate relation.
 
 ### Linear Temporal Filter
-The simplest possible relation is a so called linear temporal filter given by:
-$$r(t) = \sum_{k = 0}^n s_{t-k}f_k$$
+The simplest possible relation is a so called linear temporal filter given by the convolution of $s$ and $f$:
+$$r(t) = (s \ast f)_t =\sum_{k = 0}^n s_{t-k}f_k$$
 Examples:
 - running average filter - average over last n time points
 - leaky average filter - average over last n time points where recent time points are weighted more
@@ -53,23 +53,23 @@ We have some problems, spike rates can't be negative, spike rates can't increase
 ![[nonlinearity_filters.png]]
 
 ## Population Activity
-Normally this linear filter and nonlinear sigmoid function are not known. We only now the high-dimensional data that results in a low-dimensional neuronal firing. We therefore are interested in how a whole population of neurons behave. (Nowadays a single probe can record the activity of up to 1'000'000 neurons)
+Normally this linear filter and nonlinear sigmoid function are not known. We only know the high-dimensional data that results in a low-dimensional neuronal firing. We therefore are interested in how a whole population of neurons behave. (Nowadays a single probe can record the activity of up to 1'000'000 neurons)
 
 >Population coding refers to information available from an ensemble of neurons.
 
 ### Finding the mean population response vector
-We measure the spiking activity given by combination of features.
+We measure the spiking activity given by combination of features. In the diagram, we plot a stimulus as blue if it causes a spike and red if it doesn't.
 
 ![[population_response_vector.png]]
 
-The blue vector is then the so called response vector, with this we can project a stimuli in the direction of neuronal response.
+The blue vector is then the so called response vector, it connects the mean of the baseline with the mean of the spike cluster. With this we can project a stimuli in the direction of neuronal response and determine if it will cause a spike or not, depending on with side of the decision boundary it lies.
 
 ![[population_responce_projection.png]]
 
 ### Finding the I/O function
 The I/O function is given by:
 $$P(\text{spike} | \text{stimulus}) = P(\text{spike}|s_1)$$
-which can be found from data using the Bayes rule.
+which can be found from data using the Bayes rule. If the probability of a stimulus is the same as the probability of a stimulus given a spike, we can say that they are unrelated. If however these are not the same, we found a criteria for the I/O function.
 
 ### Population Distance Metrics
 Given multiple neurons: 

@@ -10,7 +10,7 @@ Generally we can say that states with lower energy are preferable and the system
 ## Updating a unit
 Say we are in a given state $s$ and we want to update a unit $k$. We compare the current state with the state that we would enter if we flipped this single unit. Here we assume that we are currently in the positive output state.
 $$\frac{P(s_+)}{P(s_+) + P(s_-)} = \frac{e^x}{e^x + 1}$$
-where $x = (-2\sum_i w_{k,i} x_i + 2 w_k)/(kt)$. If we plot this we get the 
+where $x = (-2\sum_i w_{k,i} x_i + 2 w_k)/(kt)$.
 
 ## State of the system
 Now we don't have stable states, the system is always "working". When updating the state, we travel across the state space according to the relative probability. We choose between 2 states based on their relative probability, this is a form of **Gibbs sampling**. The system **converges to the right distribution** (time it spends in each state) in the same way that connecting chambers (2 at a time) will lead to gas reaching equilibrium. 
