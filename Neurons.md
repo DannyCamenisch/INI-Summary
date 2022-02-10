@@ -39,7 +39,13 @@ Neurons are complex structures, therefore it can get really complicated to simul
 ![[neuron_models.png]]
 
 ## Resting potentials
-There is an electrical potential between the inside and the outside of the cell, we call this the resting potential. Normally the inside is about $-70mV$, while the outside is $0mV$. This potential is used to transfer signals.
+The resting potential exists due to the differences in membrane
+permeabilities for potassium, sodium, calcium, and chloride ions, which in
+turn result from functional activity of various ion channels, ion transporters,
+and exchangers. Conventionally, resting membrane potential can be defined
+as a relatively stable, ground value of transmembrane voltage in cells.
+ 
+ Normally the inside is about $-70mV$, while the outside is $0mV$.
 
 ### Basic components
 First we need to introduce some basic components:
@@ -79,7 +85,7 @@ $$V_{eq} = \frac{k_B T}{zq} \ln \Big( \frac{[X]_{out}} {[X]_{in}} \Big)$$
 Where $z =$ ionic charge (signed).
 
 ### Reversal potential
-Assuming that we are not at the resting potential, what happens? $Flux_{net} \neq 0$ and the potential will move towards the resting potential, this happens for example if an active channel opens up. We can describe this with a graph and call this force the **reversal potential**:
+The **reversal potential** (also known as the **Nernst potential**) of an ion is the membrane potential at which there is no net (overall) flow of that particular ion from one side of the membrane to the other. In a single ion system it is synonymous with the equilibrium potential. We can describe this with a graph, where $V_{eq}$ is the reversal potential and $E_K$ is the equilibrium potential of a single ion type:
 
 ![[reversal_potential.png|500]]
 
