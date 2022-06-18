@@ -39,13 +39,13 @@ Neurons are complex structures, therefore it can get really complicated to simul
 ![[neuron_models.png]]
 
 ## Resting potentials
-The resting potential exists due to the differences in membrane
+The **resting potential** exists due to the differences in membrane
 permeabilities for potassium, sodium, calcium, and chloride ions, which in
 turn result from functional activity of various ion channels, ion transporters,
 and exchangers. Conventionally, resting membrane potential can be defined
 as a relatively stable, ground value of transmembrane voltage in cells.
- 
- Normally the inside is about $-70mV$, while the outside is $0mV$.
+
+Normally the inside is about $-70mV$, while the outside is $0mV$.
 
 ### Basic components
 First we need to introduce some basic components:
@@ -55,7 +55,11 @@ First we need to introduce some basic components:
 
 >Remember that the concentration wants to reach an equilibrium state! We call this **diffusion**.
 
-The ions we looked at are $K^+$ (Potassium), $Ca^{2+}$ (Calcium), $Cl^-$ (Chlorid) and $Na^+$ (Sodium).
+The ions we looked at are:
+- $K^+$ (Potassium), 
+- $Ca^{2+}$ (Calcium), 
+- $Cl^-$ (Chlorid), 
+- $Na^+$ (Sodium).
 
 The **resting potential** is given by the passive ion channels.
 
@@ -63,7 +67,7 @@ The **resting potential** is given by the passive ion channels.
 We want to try and describe this potential difference with equations. We simplify this by looking at a single ion type, we choose potassium as it is the most common.
 
 #### Ionic Flux
-First we introduce the ionic flux and get an equation for the equilibrium ($Flux_{out \rightarrow in} = Flux_{in \rightarrow out}$):
+First we introduce the ionic flux and get an equation for the equilibrium $(Flux_{out \rightarrow in} = Flux_{in \rightarrow out})$:
 $$Flux_{out \rightarrow in} = \gamma[K^+]_{out}$$
 $$Flux_{in \rightarrow out} = \gamma [K^+]_{in} \cdot p (E_{kinetic} > |qV_{eq}|)$$
 where we have the following factors:
@@ -85,7 +89,7 @@ $$V_{eq} = \frac{k_B T}{zq} \ln \Big( \frac{[X]_{out}} {[X]_{in}} \Big)$$
 Where $z =$ ionic charge (signed).
 
 ### Reversal potential
-The **reversal potential** (also known as the **Nernst potential**) of an ion is the membrane potential at which there is no net (overall) flow of that particular ion from one side of the membrane to the other. In a single ion system it is synonymous with the equilibrium potential. We can describe this with a graph, where $V_{eq}$ is the reversal potential and $E_K$ is the equilibrium potential of a single ion type:
+The **reversal potential** of an ion is the membrane potential at which there is no net flow of that particular ion from one side of the membrane to the other. In a single ion system it is synonymous with the equilibrium potential. We can describe this with a graph, where $V_{eq}$ is the reversal potential and $E_K$ is the equilibrium potential of a single ion type:
 
 ![[reversal_potential.png|500]]
 
@@ -109,8 +113,7 @@ The inside of the neuron is separated from the outside by the membrane. When an 
 
 We end up with the following expression:
 $$R_m I_e - (V - E_m) = \tau_m \frac{dV}{dt}$$
-where $R_m = \frac{1}{g_m}$ is the input resistance and $\tau_m = R_m C_m$ is the membrane time constant.
-We can now use this equation to derive a **steady-state solution** (steady input current):
+where $R_m = \frac{1}{g_m}$ is the input resistance and $\tau_m = R_m C_m$ is the membrane time constant. We can now use this equation to derive a **steady-state solution** (steady input current):
 $$V_\infty = R_m I_e + E_m$$
 We can now make some interesting observations, that are nicely summaries by this slide:
 
